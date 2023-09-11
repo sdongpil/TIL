@@ -1,10 +1,11 @@
+import baekjoon.BaekJoon1157;
 import baekjoon.BaekJoon2444;
 
 public class Main {
     public static void main(String[] args) {
 
-        BaekJoon2444 baekJoon2444 = new BaekJoon2444();
-        baekJoon2444.start();
+        BaekJoon1157 baekJoon1157 = new BaekJoon1157();
+        baekJoon1157.start();
 
     }
 }
