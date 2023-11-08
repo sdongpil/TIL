@@ -21,24 +21,7 @@ public class BaekJoon11651 {
             System.out.println(point.x + " " + point.y);
         }
     }
-}
 
-class Point implements Comparable<Point> {
-    int x, y;
-
-    public Point(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
-
-    @Override
-    public int compareTo(Point other) {
-        if (this.y == other.y) {
-            return this.x - other.x;
-        } else {
-            return this.y - other.y;
-        }
-    }
 }
 
 
